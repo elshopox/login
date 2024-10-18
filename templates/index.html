@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a la Aplicación de Inicio de Sesión</h1>
+    </header>
+    <div class="login-container">
+        <img src="static/imagenes/login.jpg" alt="centered image" height="250" width="250">
+        <h2>Has Click en:</h2>
+        <a href="{{ url_for('login') }}">Iniciar Sesión</a>
+    </div>
+</body>
+</html>
